@@ -1,6 +1,5 @@
 import os
 import re
-from directory_to_list import directory_to_list
 from hash_value import value 
 
 
