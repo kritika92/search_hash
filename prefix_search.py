@@ -1,7 +1,7 @@
 import os
 import re
-import directory_to_list from directory_to_list
-import value from hash_value
+from directory_to_list import directory_to_list
+from hash_value import value 
 
 
 
