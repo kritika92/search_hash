@@ -1,7 +1,7 @@
 import os
 import re
-import directory_to_list from directory_to_list
-import prefix_searching from prefix_search
+from directory_to_list import directory_to_list 
+from prefix_search import prefix_searching
 
 dirfilepath=input('type the filepath if the directory: ')
 dir_to_list=directory_to_list(dirfilepath)
