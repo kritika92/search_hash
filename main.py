@@ -12,6 +12,13 @@ file_list=dir_to_list.get_file_list()
 pre_search=prefix_searching(myprefix)
 pre_search.make_hash()
 a=[]
-a.append('a')
-a.append('As')
+p=''
+while(1):
+    p=input('enter the prefixes , else to exit enter q: ')
+    if(p=='q'):
+        break
+    else:
+        a.append(p)
+    
+
 pre_search.search_prefixes(a)
